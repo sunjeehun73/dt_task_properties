@@ -1,0 +1,30 @@
+auth:
+  number:
+    check:
+      elapsec:
+        max:
+          time:
+            sec: 180
+
+mail:
+  host: smtp.worksmobile.com
+  port: 587
+  username: sunjeehun@dbgroup.co.kr
+  password: VbxUkOiXbOfs
+  properties:
+    mail:
+      smtp:
+        starttls:
+          enable: true
+        auth: true
+
+sms:
+  api:
+    base:
+      url: https://sens.apigw.ntruss.com
+    service:
+      url: /sms/v2/services/ncp:sms:kr:260145182554:am-sms/messages
+    accesskey: 1bObuDihxmWafi4p6IX4
+    secretkey: UHuR84jK33Y41B8iUB6xZyzD7OI9fkg2zR902677
+    from:
+      number: 01090005643
